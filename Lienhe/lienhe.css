@@ -1,0 +1,384 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/phone.css');
+
+@font-face {
+    font-family: 'Spiderum';
+    src: url(./SVN-Outfit-Variable.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
+.text-primary {
+    color: #3398D4;
+    font-weight: 600;
+}
+
+.text- {
+    color: #3398D4
+}
+
+.logo {
+    height: 32px;
+}
+
+.container-left {
+    display: flex;
+    padding-left: 120px;
+}
+
+.switch {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-size: small;
+    color: black
+}
+
+header {
+    font-family: 'Spiderum';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffffb3;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    --tw-backdrop-blur: blur(24px)
+}
+
+.list {
+    display: flex;
+}
+
+.container-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #2a2f32
+}
+
+.list {
+    list-style: none
+}
+
+.mediakit {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: black;
+    color: azure;
+    border-radius: 0.75rem;
+    padding: 0.25rem 2rem;
+    line-height: 1.25rem;
+    line-height: 32px;
+
+}
+
+
+
+.phone {
+    padding: 10px;
+    margin-left: 20px
+}
+
+.container-right {
+    padding-right: 140px;
+}
+
+.logo2 {
+    height: 64px;
+    padding-top: 4.5rem;
+
+}
+
+.left-content {
+    max-width: 50%;
+    padding-left: 6rem;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    font-family: 'Spiderum';
+}
+
+.headtitle {
+    font-size: 1.875rem
+}
+
+.contactus {
+    border-radius: 0.75rem;
+    padding: 0.25rem 2rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.content1 {
+    width: 80%;
+}
+
+.first-container-picture {
+    height: 688px;
+}
+
+.first-container {
+    display: flex;
+    padding-top: 50px;
+}
+
+.second-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 242 245 / var(--tw-bg-opacity));
+    font-family: 'Spiderum'
+
+}
+
+.content-second-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content-second-container {
+    padding-left: 110px;
+    padding-right: 150px;
+}
+
+.ten {
+    font-size: 256px;
+    font-weight: bold;
+
+}
+
+.tenmill {
+    font-size: 70px;
+}
+
+.items {
+    font-size: 1.125rem
+}
+
+.numbers {
+    font-size: 56px;
+}
+
+.numberss {
+    font-size: 3rem;
+    margin: 0
+}
+
+.nhasach {
+    font-size: 3rem
+}
+
+.SN {
+    padding-left: 110px;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: bold
+}
+
+.right-content-second-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-weight: bold
+}
+
+.partner {
+    font-family: 'spiderum';
+    font-weight: 200;
+}
+
+.third-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Spiderum'
+}
+
+.content-third-container {
+    display: flex;
+    padding-left: 110px;
+
+}
+
+.books {
+    height: 569.49px;
+    padding-left: 135px;
+}
+
+.left-content-third-container {
+    width: 505px
+}
+
+.spiderum {
+    font-family: 'spiderum';
+}
+
+.fourth-container {
+    height: 755px;
+    width: 1263px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 242 245 / var(--tw-bg-opacity));
+    width: max-content;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.partner {
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    padding-left: 110px;
+    padding-bottom: 2rem;
+
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.5rem;
+    padding-left: 110px;
+    padding-right: 150px;
+    margin-top: 2.5rem;
+}
+
+.partners2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 2.5rem;
+    padding-left: 150px;
+    padding-right: 150px
+}
+
+.companies {
+    justify-self: center
+}
+
+.spiderum {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 110px;
+
+}
+
+.people {
+    height: 630px;
+}
+
+.pictures {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.fifth-container {
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 242 245 / var(--tw-bg-opacity));
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.lienhe {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Spiderum';
+    font-weight: 600;
+}
+
+.contact-image {
+    height: 800px;
+    width: 100%
+}
+
+.LH {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 110px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.form-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 170px;
+    gap: 20px;
+}
+
+.form-control {
+    width: 408px;
+    height: 40px;
+    font-family: 'Spiderum'
+
+}
+
+.buttonn {
+    height: 45px;
+    background-color: #36d3f6;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.hr1 {
+    padding-top: 0px;
+}
+
+.input {
+    width: 400px;
+    height: 30px
+}
+
+.buttonn {
+    width: 410px;
+}
+
+.logo3 {
+    height: 30px
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.download {
+    display: flex;
+}
+
+.iconlink {
+    padding-left: 20px;
+}
+
+.icon {
+    height: 30px;
+}
+
+.infoall {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-size: 14px;
+    gap: 25px;
+    height: 200px;
+}
+
+footer {
+    padding: 70px 140px 0px 140px;
+    font-family: 'Spiderum';
+    color: #969696;
+}

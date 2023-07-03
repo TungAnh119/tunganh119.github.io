@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.register-container{
+    width: 389px;
+    height: 443px;
+    margin: 230px auto;
+    position: relative;
+}
+.spiderum{
+    width: 389px;
+    height:auto;
+    display: inline-block;
+    width: auto;
+    height: 80px;
+    text-align: center !important;
+    margin-left: 130px;
+}
+.register-fb{
+    display: flex;
+    flex-direction: column;
+}
+.register{
+    font-size: larger;
+    color: #666;
+}
+.btn-facebock{
+    background: #43618c;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+    padding: 7px 10px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+.btn-facebock:hover{
+    background-color:  #3d75c4;
+}
+.register-gmail{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    height: 40px;
+    padding: 8px 6px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+    border-color: #666;
+    margin: 10px 0px;
+}
+.info{
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #333;
+    margin-bottom: 20px;
+}
+.register-to{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+}
+.submit{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 30px;
+    background-color: #2fb5fa;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.submit:hover{
+    background-color: #3e89ef; ;
+}
+.insign{
+    display: flex;
+}
+.insign a{
+    text-decoration: none;
+    color: #2fb5fa;
+    font-weight: 700;
+    margin-left: 3px;
+    margin-top: 3px;
+}
